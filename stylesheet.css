@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Georgia, Palatino, serif;
+}
+
+body {
+  background: #34383C;
+;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+#main {
+  position: absolute;
+
+  top: 100px;
+  left: 280px;
+
+  width: 1300px;
+}
+
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 40px 0 40px;
+
+  line-height: 40px;
+
+  letter-spacing: 1px;
+  color: #d3d3d3;
+  font: bold;
+  width: 700px;
+}
+#bright_image_front{
+  position: absolute;
+  top: 100px;
+  left: 850px;
+
+}
+#main h2{
+  font-size: 30px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: 1px;
+  color: #d3d3d3;
+  font: bold;
+  width: 700px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-image: "https://pics.freeicons.io/uploads/icons/png/6727849321579507715-512.png";
+    color:#d3d3d3;
+    width: 700px;
+}
+
+ul li{
+  line-height: 70px;
+}
+
+#main p {
+  margin: 20px 0;
+  background-color: #474B4F;
+  border-radius: 10px;
+
+  padding: 34px 34px 34px 34px;
+
+  font-size: 24px;
+
+  line-height: 29px;
+
+  color:#d3d3d3;
+  width: 700px;
+}
+
+#main ul, #main ol {
+
+  margin: 20px 0;
+  background-color: #474B4F;
+  border-radius: 10px;
+  padding: 34px 34px 34px 34px;
+  width: 700px;
+}
+
+#main li {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#main ul li {
+  list-style-image: url(https://svgshare.com/i/ezR.svg);
+  margin-left: 50px;
+}
+
+#menu_bar {
+  position: absolute;
+
+  top: 40px;
+  left: 0px;
+  width: 100%;
+  background: #d3d3d3;
+
+
+  padding: 20px 0 0;
+  vertical-align:middle;
+}
+  
+#topbar {
+position: absolute;
+width: 100%;
+height: 90px;
+background: #474B4F;
+}
+
+#topbar_links{
+  position: relative;
+  margin-left: 280.5px;
+  padding: 37px 10px;
+
+  color: #FFFF;
+  line-height: 80px;
+  font-size: 25px; 
+}
+
+
+#topbar_links:hover{
+  background-color: #86C252;
+  border-radius: 10px;
+}
+
+
+#sidebar h2 {
+  text-transform: uppercase;
+
+  font-size: 13px;
+
+  color: #333;
+
+  letter-spacing: 1px;
+
+  line-height: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+
+  margin: 20px 0;
+}
+
+#sidebar li {
+  font-size: 14px;
+
+  line-height: 20px;
+}
